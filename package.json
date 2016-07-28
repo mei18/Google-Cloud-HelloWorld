@@ -1,0 +1,28 @@
+{
+  "name": "google-cloud-helloworld",
+  "version": "1.0.0",
+  "description": "Hello World",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "monitor": "nodemon app.js",
+    "deploy": "gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mei18/Google-Cloud-HelloWorld.git"
+  },
+  "author": "Melanie Liang",
+  "engines":{
+    "node":"~4.2"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mei18/Google-Cloud-HelloWorld/issues"
+  },
+  "homepage": "https://github.com/mei18/Google-Cloud-HelloWorld#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
